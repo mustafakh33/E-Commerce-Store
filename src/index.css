@@ -1,0 +1,63 @@
+/* start global rules */
+body {
+  margin: 0;
+  font-family: "Almarai", sans-serif;
+}
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+.font {
+  font-family: "Almarai", sans-serif;
+  background-color: #f9f9f9;
+}
+/* end global rules */
+
+/* start toast */
+.Toastify__toast-container {
+  position: fixed;
+  top: 70px !important;
+  right: 20px;
+  z-index: 9999;
+}
+/* end toast */
+
+/* start pagination */
+.page-link {
+  background-color: #f9f9f9 !important;
+  color: #272727 !important;
+  border-radius: 10px !important;
+  border: solid 1px 272727 !important;
+}
+.page-link:hover {
+  background-color: #272727 !important;
+  color: white !important;
+  border: solid 1px 272727 !important;
+}
+/* end pagination */
+
+/* start btn-title  */
+.btn-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+  background-color: #f9f9f9 !important;
+  color: #272727 !important;
+  border-radius: 10px !important;
+  border: solid 1px #272727 !important;
+}
+
+.btn-title:hover {
+  background-color: #272727 !important;
+  color: white !important;
+  border: solid 1px 272727 !important;
+}
+/* end btn-title  */
+
+
+/* start Pagination */
+
+/* Pagination.css */

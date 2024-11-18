@@ -1,0 +1,16 @@
+.cart-title {
+    font-size: 2rem; /* حجم الخط */
+    font-weight: bold; /* جعل الخط غامق */
+    color: #333; /* لون الخط */
+    text-align: left; /* محاذاة النص إلى اليسار */
+    border-bottom: 2px solid #ddd; /* إضافة خط سفلي */
+    padding-bottom: 10px; /* إضافة مسافة بين النص والخط السفلي */
+    margin-bottom: 20px; /* مسافة إضافية تحت العنوان */
+  }
+  
+  @media (max-width: 768px) {
+    .cart-title {
+      font-size: 1.5rem; /* تقليل حجم الخط للشاشات الصغيرة */
+      text-align: center; /* تغيير المحاذاة لتكون في الوسط للشاشات الصغيرة */
+    }
+  }

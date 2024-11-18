@@ -1,0 +1,45 @@
+.footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-icons img {
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .footer-link {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-link {
+    margin: 0 15px;
+  }
+}

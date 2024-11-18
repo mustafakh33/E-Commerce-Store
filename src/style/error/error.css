@@ -1,0 +1,10 @@
+.btn-errorPage {
+    color: #fff;
+    background-color: #db4444 !important;
+    border-radius: 4px;
+    width: 254px;
+    height: 56px;
+    padding: 16px 48px 16px 48px;
+    border: 0;
+    text-decoration: none;
+  }
